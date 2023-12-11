@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Daniela Jiménez López">
+    <link rel="stylesheet" href="../css/contactoestilo.css" />
+    <link rel="icon" href="../img/pandaicon.ico" type="image/x-icon" />
+    <title>Formulario contacto</title>
+  </head>
+  <body>
+    <header>
+      <img src="../img/logokungfu.png" alt="Logo" />
+      <h1>Kung Fu Panda</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="proyecto.html">Sobre el proyecto</a></li>
+        <li><a href="curriculum.html">Curriculum</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <section>
+      <div class="izquierda">
+        <h2>Menú de navegación</h2>
+        <p><a href="../index.html">Inicio</a></p>
+        <p><a href="proyecto.html">Sobre el proyecto</a></p>
+        <p><a href="curriculum.html">Curriculum</a></p>
+        <p><a href="contacto.html">Contacto</a></p>
+        <br><hr><br>
+        <h4>Sobre el autor</h4>
+        <p>Fue al parecer por error, entonces, que fue elegido para convertirse en el Guerrero Dragón. Po estaba en éxtasis cuando se enteró de un torneo
+          que se celebra para determinar cuál de los Cinco Furiosos sería elegido como el legendario Guerrero Dragón.
+          Abandonó su tarea de venta de fideos para ver el torneo, aterrizando dentro del recinto del torneo.
+          El Maestro Oogway tomó esto como una señal del universo que había traído al verdadero Guerrero del Dragón. 
+          El Valle lo celebra, mientras Po es llevado al Palacio de Jade, donde se maravilló por el legendario Kung Fu.</p>
+          <img src="../img/poizq.jpg" alt="Maestro Po Ping" class="Po">
+      </div>
+      <div class="principal">
+        <div class="formulario">
+          <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="Nombre" placeholder="Terelu"/><br>
+            <label for="apellido">Apellidos:</label>
+            <input type="text" id="apellido" name="Apellido" placeholder="Campos"/><br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="Email" placeholder="ejemplo@gmail.com" required/><br>
+            <label for="telefono">Número de teléfono:</label>
+            <input type="tel" id="telefono" name="Teléfono" placeholder="+34 000 00 00 00"><br>
+            <label for="edad">Fecha de nacimiento:</label>
+            <input type="date" id="edad" name="Fecha de nacimiento"><br>
+            <label for="trato">¿Cómo prefiere ser tratado?</label>
+            <select id="tratos" name="Tratos">
+              <option value="Sr.">Sr.</option>
+              <option value="Sra.">Sra.</option>
+              <option value="Srta.">Srta.</option>
+            </select><br>
+            <label for="archivo">Adjuntar archivo:</label>
+            <input type="file" id="archivo" name="Archivo"/><br>
+            
+            <fieldset>
+              <legend>Seleccione la prioridad de su mensaje:</legend>
+              <input type="radio" id="baja" name="Prioridad" value="Baja">
+              <label for="baja">Baja</label>
+              <input type="radio" id="normal" name="Prioridad" value="Normal">
+              <label for="normal">Normal</label>
+              <input type="radio" id="alta" name="Prioridad" value="Alta">
+              <label for="alta">Alta</label><br>
+            </fieldset>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="Mensaje" rows="10" cols="50" placeholder="Empieza tu mensaje..." required></textarea><br>
+            <label for="condicion">Acepto los términos y condiciones:</label>
+            <input type="checkbox" id="condicion" name="Condición" required/><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Eliminar</button>
+          </form>
+        </div>
+      </div>
+      <div class="derecha">
+        <h2><a href="subpáginas/pago.html">绿色和平 convoca una recogida de firmas para salvar a los osos panda</h2>
+        <img src="../img/pandas.jpg" alt="pandas en kung fu panda 3"></a>
+      </div>
+    </section>
+    <footer>
+      <p>Daniela Jiménez López | SMR2ºB</p>
+      <p>Diciembre 2023</p>
+    </footer>
+  </body>
+</html>
