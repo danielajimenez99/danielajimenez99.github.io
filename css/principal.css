@@ -8,6 +8,10 @@ body {
   font-family: Arial, sans-serif;
   background-color: #F5F3F4;
   color: #161A1D;
+  background-image: url("../img/chinese-flower2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 header {
@@ -80,7 +84,7 @@ section {
 
 .principal {
   flex: 1;
-  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0,9);
   padding: 20px;
   margin: 10px;
 }
